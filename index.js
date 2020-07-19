@@ -10,7 +10,10 @@ document.addEventListener("keydown", function(e)
   {
     moveDodgerLeft();
   }
-  else if ()
+  else if (e.key === "ArrowRight") 
+  {
+    moveDodgerRight()
+  }
 });
 
 function moveDodgerLeft() 
